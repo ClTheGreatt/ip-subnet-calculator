@@ -378,3 +378,25 @@ button {
     font-size: 2.72rem;
   }
 }
+
+.site-footer {
+  position: relative;
+  z-index: 1;
+  max-width: 1180px;
+  margin: 24px auto 0;
+  padding: 18px 8px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.site-footer a {
+  color: #9cb1c8;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.18s ease;
+}
+
+.site-footer a:hover {
+  color: #ffffff;
+}

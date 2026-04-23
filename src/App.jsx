@@ -279,6 +279,12 @@ export default function App() {
           </section>
         </aside>
       </section>
+      <footer className="site-footer">
+       <a href="/about.html">About</a>
+       <a href="/privacy.html">Privacy Policy</a>
+       <a href="/contact.html">Contact</a>
+        </footer>
+
     </main>
   );
 }
